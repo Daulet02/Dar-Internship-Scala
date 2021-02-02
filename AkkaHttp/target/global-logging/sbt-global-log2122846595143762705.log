@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/C:/Users/user/Desktop/AkkaHttp/}akkahttp/products {file:/C:/Users/user/Desktop/AkkaHttp/}akkahttp/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Users\user\Desktop\AkkaHttp\target\scala-2.13\classes ...
+[warn] C:\Users\user\Desktop\AkkaHttp\src\main\scala\AutoDetailDirectives.scala:13:69: match may not be exhaustive.
+[warn] It would fail on the following input: Failure(_)
+[warn]   (e: Throwable => ApiError): Directive1[T] = onComplete(f) flatMap {
+[warn]                                                                     ^
+[warn] one warning found
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 10 s, completed 23 янв. 2021 г., 01:35:12
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

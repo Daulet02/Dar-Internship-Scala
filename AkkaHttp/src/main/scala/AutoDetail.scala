@@ -1,0 +1,5 @@
+case class Detail(id: String, name: String)
+case class CreateDetail(id: String, name: String)
+case class UpdateDetail(id: Option[String], name: Option[String])
+case class GetDetail(id: String)
+case class DeleteDetail(id: String)
